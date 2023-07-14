@@ -23,6 +23,14 @@ class UsuariosIntegracionTest {
 		assertEquals("fary", resultado);
 	}
 	
+	@Test
+	void testUpdate()
+	{
+		this.user.addUser("fary");
+		this.user.UpdateUser("fary", "faris");
+		String resultado = this.user.getUser("faris");
+		assertEquals("faris", resultado);
+	}
 	
 
 	
