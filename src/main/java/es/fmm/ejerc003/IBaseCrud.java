@@ -1,6 +1,5 @@
-package ejerc003;
+package es.fmm.ejerc003;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public interface IBaseCrud<T> {

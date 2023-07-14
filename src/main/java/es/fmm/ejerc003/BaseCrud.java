@@ -1,9 +1,9 @@
-package ejerc003;
+package es.fmm.ejerc003;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class BaseCrud<T extends Usuario> implements IBaseCrud<T>{
+public class BaseCrud<T extends BaseModel> implements IBaseCrud<T>{
 	
 	private List<T> usuarios;
 	
