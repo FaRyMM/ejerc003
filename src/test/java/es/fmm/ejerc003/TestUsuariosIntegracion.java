@@ -51,7 +51,7 @@ class TestUsuariosIntegracion {
 		this.crud.update(actualizacion);
 		
 		Usuario resultado = this.crud.getId("1");
-		assertEquals("Faris", resultado.getNombre());
+		assertEquals("Faris", resultado.Nombre);
 	}
 	
 	

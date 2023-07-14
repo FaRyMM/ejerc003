@@ -1,7 +1,7 @@
 package es.fmm.ejerc003;
 
 public class BaseModel {
-	public String Id;
+	protected String Id;
 	
 	
 	public String getId() 
